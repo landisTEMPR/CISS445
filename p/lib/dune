@@ -1,0 +1,5 @@
+(library
+ (name interp)
+ (modules ast env lexer parser eval))
+
+(ocamllex lexer)
